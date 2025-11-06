@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberHand – Prótesis Cibernéticas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #111, #3c3c3c);
+      color: black;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #00d4ff;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00d4ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: url('https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: black;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+      text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    section {
+      padding: 60px 80px;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #00a3cc;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    .about, .innovation, .products {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .about img, .innovation img, .products img {
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .text p {
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #00d4ff;
+      text-decoration: none;
+    }
+
+    .contacto {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .contacto a {
+      color: #00a3cc;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .contacto a:hover {
+      color: #0080a0;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CyberHand</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre">Sobre Nosotros</a>
+      <a href="#productos">Productos</a>
+      <a href="#innovacion">Innovación</a>
+      <a href="#contacto">Contáctanos</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h2>La revolución de las manos cibernéticas</h2>
+    <p>Diseñamos prótesis inteligentes, modulares y sostenibles que devuelven autonomía y confianza a las personas.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <div class="about">
+      <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?auto=format&fit=crop&w=800&q=80" alt="Prótesis CyberHand">
+      <div class="text">
+        <p><strong>CyberHand</strong> nació con un compromiso claro: crear tecnología humana y responsable.  
+        Nuestro equipo combina ingeniería biomédica, diseño y ética digital para desarrollar prótesis avanzadas, reparables y duraderas, reduciendo residuos y promoviendo la sostenibilidad.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="products">
+      <div class="text">
+        <p>Ofrecemos prótesis modulares adaptadas a cada usuario.  
+        Gracias a la impresión 3D y la personalización digital, cada mano CyberHand ofrece precisión, confort y estilo propio.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=80" alt="Prototipo de mano cibernética">
+    </div>
+  </section>
+
+  <section id="innovacion">
+    <h2>Innovación y Ética</h2>
+    <div class="innovation">
+      <div class="text">
+        <p>Integramos la ética y la protección de datos desde el diseño inicial.  
+        Nuestros algoritmos de aprendizaje adaptan la prótesis al usuario de forma segura y transparente.  
+        Además, reducimos el impacto ambiental mediante simulaciones digitales y materiales reciclables.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <div class="contacto">
+      <p>¿Tienes dudas o quieres saber más sobre nuestros proyectos?</p>
+      <p>📧 Escríbenos a:  
+        <a href="mailto:cyberhandempresa@gmail.com?subject=Consulta%20sobre%20CyberHand&body=Hola%20CyberHand,%20me%20gustaría%20obtener%20más%20información.">
+          cyberhandempresa@gmail.com
+        </a>
+      </p>
+      <p>🌍 Bilbao, España</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 CyberHand – Innovación Humana y Responsable | <a href="#inicio">Volver arriba</a>
+  </footer>
+
+</body>
+</html>
